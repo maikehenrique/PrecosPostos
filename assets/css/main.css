@@ -1,0 +1,92 @@
+@charset "UTF-8";
+body {
+  background-color: #f7f7f7;
+  font-family: Nunito, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial,
+    Lucida Grande, sans-serif;
+}
+.marketing {
+  background: radial-gradient(
+    98.31% 98.31% at 50.03% 103.64%,
+    #4161b0 0%,
+    #2b3140 100%
+  );
+  width: 100%;
+  height: 20rem;
+  text-align: center;
+}
+
+.marketing h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  color: #f8fafb;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.marketing h1 span {
+  color: #3cacd7;
+}
+.description {
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dae4ea;
+  margin-bottom: 76px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-left {
+  position: absolute;
+  left: 15%;
+  max-width: 288px;
+  top: 0;
+  margin-top: 7rem;
+}
+
+/*
+@media screen and (min-width: 1484px) {
+  .icons-left {
+    position: absolute;
+    left: 15%;
+    max-width: 288px;
+    top: 0;
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (min-width: 1484px) {
+  .icons-left {
+    position: absolute;
+    left: 15%;
+    max-width: 288px;
+    top: 0;
+    margin-top: 7rem;
+  }
+}
+*/
+@media screen and (max-width: 1483px) {
+  .icons-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .marketing {
+    background: radial-gradient(
+      98.31% 98.31% at 50.03% 103.64%,
+      #4161b0 0%,
+      #2b3140 100%
+    );
+    width: 100%;
+    height: 25rem;
+    text-align: center;
+  }
+}

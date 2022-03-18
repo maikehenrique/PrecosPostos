@@ -7,14 +7,14 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'generic-nuxt-app',
+    title: 'Preço Facil',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo4.ico' }],
   },
 
   server: {
@@ -28,6 +28,8 @@ export default {
     { src: 'primeicons/primeicons.css' },
     { src: 'primeflex/primeflex.css' },
     { src: '@mdi/font/css/materialdesignicons.min.css' },
+    { src: '~/assets/css/main' },
+    { src: '~/assets/css/theme' },
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
