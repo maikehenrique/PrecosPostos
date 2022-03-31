@@ -51,6 +51,13 @@ body {
   margin-top: 7rem;
 }
 
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #4161b0;
+  color: white;
+}
+
 /*
 @media screen and (min-width: 1484px) {
   .icons-left {

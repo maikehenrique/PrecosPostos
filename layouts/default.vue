@@ -22,6 +22,9 @@
       <template #end> </template>
     </Menubar>
     <Nuxt />
+    <footer>
+      <p>Autor: MHD & PHD<br /></p>
+    </footer>
   </div>
 </template>
 <script>
